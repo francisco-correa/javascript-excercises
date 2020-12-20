@@ -12,3 +12,11 @@ console.log(squareArea1);
 console.log(squareArea2);
 console.log(squareArea3);
 console.log(squareArea4);
+
+*******************************************
+
+var multy = function(a,b){
+    return a*b;
+}
+
+console.log(multy(324234, 47));
