@@ -1,5 +1,4 @@
-function calculateArea(length,edge)
-{
+function calculateArea(length,edge) {
 	return length * edge;
 }
 
@@ -20,3 +19,32 @@ var multy = function(a,b){
 }
 
 console.log(multy(324234, 47));
+
+********************************************
+
+var dollarToEuro = function(dollarValue){
+	return dollarValue * 0.89;
+}
+var euroToYen = function(euroValue){
+	return euroValue * 124.15;
+}
+
+console.log(euroToYen(dollarToEuro(137)));
+
+*****************************************
+
+function renderPerson(name, dateBirth, eyesColor, yearsOld, sex) {
+    return name + " is a " + yearsOld + " years old " + sex + " born on " + dateBirth + " with " + eyesColor + " eyes"; 
+}
+
+console.log(renderPerson('Bob', '05/22/1983', 'green', 23, 'male'));
+
+*****************************************
+
+var names = ['John', 'Kenny', 'Tom', "Bob", 'Dilan'];
+
+function sortNames(){
+    return names.sort();
+}
+
+console.log(sortNames(names));
